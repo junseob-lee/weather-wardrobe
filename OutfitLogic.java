@@ -78,6 +78,10 @@ public class OutfitLogic {
         }
 
         // run the category querys
+        // loaderManager.initLoader(tag + TOP_LOADER_ID, null, mTopLoaderListener);
+        // loaderManager.initLoader(tag + BOTTOM_LOADER_ID, null, mBottomLoaderListener);
+        // loaderManager.initLoader(tag + OUTER_LOADER_ID, null, mOuterLoaderListener);
+        // loaderManager.initLoader(tag + DRESS_LOADER_ID, null, mDressLoaderListener);
         loaderManager.initLoader(tag + TOP_LOADER_ID, null, mTopLoaderListener);
         loaderManager.initLoader(tag + BOTTOM_LOADER_ID, null, mBottomLoaderListener);
         loaderManager.initLoader(tag + OUTER_LOADER_ID, null, mOuterLoaderListener);
